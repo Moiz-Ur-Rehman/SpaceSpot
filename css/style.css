@@ -1,0 +1,120 @@
+body{
+    overflow-x: hidden;
+}
+.travel-adventure{
+    font-size: 0.9em;
+}
+.main-image{
+    z-index: -9;
+}
+
+/*----------------- Search Bar ---------------------*/
+
+.search-bar-container{
+    box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.2);
+    background-color: white;
+    margin-top: -40px;
+    z-index: 9;
+}
+.search-bar input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 18px;
+}
+.search-labels{
+    font-size: 15px;
+    font-weight: bold;
+    color: #cccccc;
+}
+.field-separator{
+    border-left: 2px solid lightgray;
+}
+.search-button{
+    background-color: #fda45d;
+    color: white;
+    border: none;
+    width: 100%;
+}
+
+/*-------------- Section 2 ----------------------------*/
+.section-2 h4{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+}
+
+/*-------------- Section 3 ----------------------------*/
+.section-3-wrap{
+    background-image: url('../images/cosmic-timetraveler-LgrGHYZzBSk-unsplash-scaled.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.section-3-wrap a{
+    text-decoration: none;
+    color: white;
+    background-color: #fda45d;
+}
+
+/* ------------- Section 4 and Section 5 ---------------*/
+.top-destination , .activities{
+    color: #707070;
+    font-size: 22px;
+}
+.top-destination-images , .activities-images{
+    color: #707070;
+}
+.top-destination-images h3, .activities-images h3{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+.top-destination-images p{
+    font-size: 18px;
+}
+
+/*----------------- Footer ----------------*/
+.footer-wrap{
+    color: #707070;
+}
+.footer-wrap h4{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-wrap a{
+    text-decoration: none;
+    color: #707070;
+    font-size: 17px;
+}
+.footer-copyright{
+    background-color: #547851;
+    color: white;
+}
+.footer-copyright p{
+    font-size: 17px;
+}
+
+/*-------------------- Responsive ------------------------*/
+@media only screen and (max-width: 991.5px){
+    .passengers{
+        display: none;
+    }
+}
+@media only screen and (max-width: 575.5px){
+    .dates{
+        display: none;
+    }
+    .search-bar-container{
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 440px){
+    .section-2 img{
+        width: 90%;
+    }
+    .top-destination-images img{
+        width: 90%;
+    }
+}
